@@ -1,0 +1,22 @@
+{
+	"name": "node-active-app",
+	"version": "1.0.0",
+	"description": "A native Node.js module to read and write active application/window on both Mac and Windows",
+	"main": "index.js",
+	"scripts": {
+		"build": "node-gyp rebuild",
+		"clean": "node-gyp clean",
+		"lint": "clang-format --dry-run --Werror active_app.mm && prettier --check index.js",
+		"format": "clang-format -i active_app.mm && prettier --write index.js"
+	},
+	"author": "Abhay Buch <abhay@makenotion.com>",
+	"dependencies": {
+		"bindings": "1.5.0",
+		"node-addon-api": "6.1.0"
+	},
+	"devDependencies": {
+		"clang-format": "1.8.0",
+		"node-gyp": "9.4.0",
+		"prettier": "2.8.8"
+	}
+}
