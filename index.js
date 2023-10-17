@@ -1,5 +1,5 @@
-const active_app = require('bindings')('active_app.node');
+const mac_window = require("bindings")("mac_window.node");
 
 module.exports = {
-	makeKeyAndOrderFront: active_app.makeKeyAndOrderFront
-}
+  makeKeyAndOrderFront: mac_window.makeKeyAndOrderFront,
+};

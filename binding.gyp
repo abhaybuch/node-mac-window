@@ -1,11 +1,11 @@
 {
   "targets": [{
-    "target_name": "active_app",
+    "target_name": "mac_window",
     "sources": [ ],
     "conditions": [
       ['OS=="mac"', {
         "sources": [
-          "active_app.mm"
+          "mac_window.mm"
         ],
       }]
     ],

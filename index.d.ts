@@ -1,1 +1,1 @@
-declare module 'node-active-app';
+declare module 'node-mac-window';

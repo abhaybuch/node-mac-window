@@ -7,10 +7,10 @@
 	"scripts": {
 		"build": "node-gyp rebuild",
 		"clean": "node-gyp clean",
-		"lint": "clang-format --dry-run --Werror active_app.mm && prettier --check index.js",
-		"format": "clang-format -i active_app.mm && prettier --write index.js"
+		"lint": "clang-format --dry-run --Werror mac_window.mm && prettier --check index.js",
+		"format": "clang-format -i mac_window.mm && prettier --write index.js"
 	},
-	"author": "Abhay Buch <abhay@makenotion.com>",
+	"author": "Abhay Buch <buch.abhay@gmail.com>",
 	"dependencies": {
 		"bindings": "1.5.0",
 		"node-addon-api": "6.1.0"
